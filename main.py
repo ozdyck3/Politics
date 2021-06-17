@@ -17,6 +17,7 @@ def createCand():
     global contribs
     global candName
     global candParty
+    id = random.choice(pol.pol)
     try:
         cand = crp.candidates.get(id)
     except:
